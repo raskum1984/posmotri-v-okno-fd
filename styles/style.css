@@ -103,10 +103,6 @@ ol {
   text-underline-offset: 3px;
 }
 
-.search-form__textfield {
-  outline: none;
-}
-
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
@@ -123,6 +119,7 @@ ol {
   background-color: transparent;
   appearance: none;
   min-width: 225px;
+  outline: none;
 }
 
 .search-form__textfield::placeholder {
